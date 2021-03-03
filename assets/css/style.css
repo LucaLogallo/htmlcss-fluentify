@@ -30,6 +30,7 @@ header{
   line-height: 80px;
   overflow: hidden;
 }
+
 .float-left{
   float: left;
 }
@@ -37,6 +38,7 @@ header{
 .header-logo{
   width: 15%;
 }
+
 .header-logo img{
   margin-top: 15px;
 }
@@ -67,6 +69,7 @@ text-align: right;
 }
 
 /* BUTTONS */
+
 .btn{
   display: inline-block; /* per dimensionare */
   color: white;
@@ -75,14 +78,17 @@ text-align: right;
   padding: 5px 10px;
   text-decoration: none;
 }
+
 .btn.btn-blu{
   padding-left: 30px;  
   padding-right: 30px;  
   border:1px solid white;
 }
+
 .btn.btn-green{
   background-color: #7cbb04;
 }
+
 .btn.btn-large{
   padding: 20px;
 }
@@ -91,16 +97,19 @@ text-align: right;
   position: relative;
   height: 470px;
 }
+
 .jumbo-text{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
+
 .jumbo-text h1{
   color: white;
   font-size: 350%;
   margin-bottom: 30px;
 }
+
 .half{
   width: 50%;
 }
@@ -128,20 +137,23 @@ text-align: right;
   width: 90%;
   margin: 0 auto;
   height: 600px;
-  /* background-color: red; */
 }
 
 .menu3_main .box{
   width: 32%;
-  /* height: 600px; */
-  /* background-color: green; */
   float: left;
+}
+
+.riquadro{
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .menu3_main .box img{
   height: 200px;
   width: 100%;
-  margin-bottom: 20px;
+  
 }
 
 .menu3_main .box h1{
@@ -204,3 +216,42 @@ text-align: right;
   color:#818181 ;
   margin-bottom: 30px;
 }
+
+
+/* footer */
+
+footer{
+  height: 100px;
+  width: 100%;
+  background-color: #d3d3d3;
+}
+
+.contenuto_footer{
+  width: 90%;
+  line-height: 100px;
+  margin: auto;
+  position: relative;
+}
+
+footer h2{
+  display: inline;
+}
+
+.footer_nav{
+  line-height: 100px;
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  color: #848484;
+}
+
+option{
+  color: #848484;
+}
+
+select{
+  color: #848484;
+  margin:0 20px;
+  width: 200px;
+}
+
