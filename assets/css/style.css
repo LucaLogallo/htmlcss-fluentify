@@ -337,16 +337,21 @@ select{
   height: 60px;
 }
 
-.t p{
-  line-height: 40px;
-  color: grey;
-}
-
 .t span{
   color: green;
 }
 
-.container section{
+.t h3,.t h5{
+  margin-bottom: 5px;
+  line-height: 40px;
+  color: grey;
+}
+
+.t>a{
+  color: #b1cad5;
+}
+
+section:first-of-type{
   background-color: #0c3259;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -372,3 +377,6 @@ select{
   margin-bottom: 30px;
 }
 
+.container>h1{
+  text-align: center;
+}
