@@ -41,18 +41,28 @@ header{
 
 .header-logo img{
   margin-top: 15px;
+  height: 100%;
 }
 
 .header-nav-center{
  width: 45%; 
+ height: 100%;
 }
 
 .header-nav-right{
-width: 40%;
-text-align: right;
+  width: 40%;
+  text-align: right;
+  height: 100%;
 }
 
-.menu-inline{
+a{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 80%;
+  padding: 0 10px;
+}
+/* .menu-inline{
   list-style: none;
 }
 
@@ -66,7 +76,7 @@ text-align: right;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 80%;
-}
+} */
 
 /* BUTTONS */
 
@@ -137,6 +147,7 @@ text-align: right;
   width: 90%;
   margin: 0 auto;
   height: 600px;
+  margin-bottom: 30px;
 }
 
 .menu3_main .box{
@@ -243,6 +254,7 @@ footer h2{
   display: inline-block;
   right: 0;
   color: #848484;
+  z-index: 50;
 }
 
 option{
@@ -255,3 +267,24 @@ select{
   width: 200px;
 }
 
+/* fixed help */
+.help{
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  z-index: 100;
+  text-align: right;
+  background-color: black;
+}
+
+
+.help .bottone{
+  display: inline-block; /* per dimensionare */
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  line-height: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: chartreuse;
+}
