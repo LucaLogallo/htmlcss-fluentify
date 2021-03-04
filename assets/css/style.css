@@ -60,7 +60,7 @@ header{
   height: 100%;
 }
 
-a{
+header a{
   color: white;
   text-transform: uppercase;
   text-decoration: none;
@@ -87,6 +87,7 @@ a{
 }
 
 .btn.btn-green{
+  color: white;
   background-color: #7cbb04;
 }
 
@@ -192,14 +193,14 @@ a{
   width: 49%;
   /* height: 300px; */
   float: left;
- /*  background-color: red; */
+  /* background-color: red; */
 }
 
 .menu2_main .box:last-child {
   padding: 2%;
 }
 .left{
-  margin-right: 1%;
+  margin-right: 2%;
 }
 
 .left img{
@@ -226,6 +227,7 @@ footer{
   height: 100px;
   width: 100%;
   background-color: #d3d3d3;
+  margin-bottom: 70px;
 }
 
 .contenuto_footer{
@@ -263,3 +265,110 @@ select{
   right: 5%;
   bottom: 0;
 }
+
+
+
+/* SECONDA PARTE */
+
+.container .m{
+  width: 80%;
+  /* height: 200px; */
+  margin: auto;
+  /* background-color: green; */
+}
+
+.m .b{
+  width: 45%;
+  /* height: 300px; */
+  float: left;
+  /* background-color: red; */
+}
+
+.m .left{
+  margin-right: 10%;
+}
+
+.m .b img{
+  width: 100%;
+  height: 300px;
+  transform: translatey(-20%);
+}
+
+.m .b p{
+  margin-bottom: 30px;
+}
+
+.r{
+  /* background-color: blue; */
+}
+.r .b{
+ /*  height: 50px; */
+}
+
+.r a{
+  width: 100%;
+  display: inline-block;
+}
+
+.r .b:nth-child(2){
+  color: #848484;
+  text-align: center;
+  line-height: 35px ;
+  padding: 5px;
+  color: #bac6d2;
+}
+
+.set{
+  width: 50%;
+  height: 600px;
+  margin: auto;
+/*   background-color: red; */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.set div:nth-child(1){
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.t{
+  width: 100%;
+  height: 60px;
+}
+
+.t p{
+  line-height: 40px;
+  color: grey;
+}
+
+.t span{
+  color: green;
+}
+
+.container section{
+  background-color: #0c3259;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+/* classe da cancellare */
+.container .ma{
+  width: 30%;
+  /* height: 200px; */
+  margin-left: 10%;
+  /* background-color: green; */
+  /* padding: 50px 0; */
+  font-size: 20px;
+}
+
+.container .ma h1{
+  color:white;
+  margin-bottom: 30px;
+}
+
+.container .ma p{
+  color: #849db4;
+  margin-bottom: 30px;
+}
+
