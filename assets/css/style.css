@@ -112,6 +112,8 @@ a{
 
 /* main */
 
+/* striscia grigia del main */
+
 .title_main{
   text-align: center;
   padding: 30px;
@@ -126,7 +128,7 @@ a{
   color: #818181;
 }
 
-
+/* main > menu con 3 colonne */
 
 .menu3_main{
   width: 90%;
@@ -177,16 +179,16 @@ a{
   margin: 0 2%;
 }
 
+/* main > menu con 2 colonne */
+
 .menu2_main{
   width: 90%;
-  /* background-color: black; */
   margin: 0 auto;
 }
+
 .menu2_main .box{
   width: 49%;
-  /* height: 300px; */
   float: left;
- /*  background-color: red; */
 }
 
 .menu2_main .box:last-child {
@@ -278,4 +280,8 @@ select{
   font-size: 10px;
   background-color: chartreuse;
   text-align: end;
+}
+
+a:hover {
+  margin-top: 20px;
 }
