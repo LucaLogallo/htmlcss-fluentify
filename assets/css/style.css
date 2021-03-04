@@ -298,13 +298,6 @@ select{
   margin-bottom: 30px;
 }
 
-.r{
-  /* background-color: blue; */
-}
-.r .b{
- /*  height: 50px; */
-}
-
 .r a{
   width: 100%;
   display: inline-block;
@@ -322,7 +315,6 @@ select{
   width: 50%;
   height: 600px;
   margin: auto;
-/*   background-color: red; */
   text-align: center;
   margin-bottom: 30px;
 }
@@ -379,4 +371,26 @@ section:first-of-type{
 
 .container>h1{
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.m3{
+  width: 80%;
+  margin: auto;
+}
+.m3 .b{
+  width: 32%;
+  height: 200px;
+  text-align: center;
+  float: left;
+}
+
+.m3 .b img{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.m3 .b>h5{
+  display: inline-block;
 }
